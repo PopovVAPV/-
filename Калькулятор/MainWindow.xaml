@@ -27,21 +27,21 @@
         <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Text="" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="50" x:Name="output"/>
 
         <Button Grid.Row="2" Content="CE" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_17"/>
-        <Button Grid.Row="3" Content="7" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_6"/>
-        <Button Grid.Row="4" Content="4" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_3"/>
-        <Button Grid.Row="5" Content="1" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click"/>
-        <Button Grid.Row="6" Content="." Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_13"/>
+        <Button Grid.Row="3" Content="7" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_6"/>
+        <Button Grid.Row="4" Content="4" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_3"/>
+        <Button Grid.Row="5" Content="1" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click"/>
+        <Button Grid.Row="6" Content="." Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_13"/>
 
         <Button Grid.Row="2" Grid.Column="1" Content="C" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_18"/>
-        <Button Grid.Row="3" Grid.Column="1" Content="8" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_7"/>
-        <Button Grid.Row="4" Grid.Column="1" Content="5" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_4"/>
-        <Button Grid.Row="5" Grid.Column="1" Content="2" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_1"/>
-        <Button Grid.Row="6" Grid.Column="1" Content="0" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_14"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="8" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_7"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="5" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_4"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="2" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_1"/>
+        <Button Grid.Row="6" Grid.Column="1" Content="0" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_14"/>
 
         <Button Grid.Row="2" Grid.Column="2" Content=">" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_16"/>
-        <Button Grid.Row="3" Grid.Column="2" Content="9" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_8"/>
-        <Button Grid.Row="4" Grid.Column="2" Content="6" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_5"/>
-        <Button Grid.Row="5" Grid.Column="2" Content="3" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_2"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="9" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_8"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="6" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_5"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="3" Background="Gray" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_2"/>
         <Button Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Content="=" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_12"/>
 
         <Button Grid.Row="2" Grid.Column="3" Content="/" Background="Black" Foreground="White" FontSize="30" Margin="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click_15"/>

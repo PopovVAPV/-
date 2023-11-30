@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -87,9 +88,11 @@ namespace Калькулятор
 
         private void Button_Click_12(object sender, RoutedEventArgs e)
         {
-            double result;
-            result = 2;
-            output.Text += result;
+            string expression = input.Text;
+
+            DataTable dt = new DataTable();
+            var result = dt.Compute(expression, "");
+            output.Text = result.ToString();
         }
 
         private void Button_Click_13(object sender, RoutedEventArgs e)
@@ -104,7 +107,7 @@ namespace Калькулятор
 
         private void Button_Click_15(object sender, RoutedEventArgs e)
         {
-            input.Text += "/";
+            input.Text += " / ";
         }
 
         private void Button_Click_16(object sender, RoutedEventArgs e)
@@ -115,6 +118,7 @@ namespace Калькулятор
         private void Button_Click_17(object sender, RoutedEventArgs e)
         {
             input.Text = "";
+            output.Text = "";
         }
 
         private void Button_Click_18(object sender, RoutedEventArgs e)
